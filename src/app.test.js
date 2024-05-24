@@ -157,7 +157,7 @@ describe("/schedules/:scheduleId/users/:userId/candidates/:candidateId", () => {
     });
 
     const res = await sendJsonRequest(
-      app, 
+      app,
       `/schedules/${scheduleId}/users/${testUser.userId}/candidates/${candidate.candidateId}`,
       {
         availability: 2,
